@@ -7,3 +7,6 @@ This repository contains python scripts related to penetration testing
 
 <br><br>Stealth Keylogger and Auto Send Email(logger.py)
 <br> This program is a simple keylogger program. Pls refer to related article at my blog https://pythonbitsnpieces.blogspot.com/2022/07/stealth-keylogger-and-auto-send-email.html
+
+<br>Python: A simple script to closed Ports in Windows 10(ports_close.py)
+<br>This program is created to close ports in Windows 10. Pls refer to related article at my blog https://pythonbitsnpieces.blogspot.com/2022/07/python-simple-script-to-closed-ports-in.html
