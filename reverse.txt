@@ -1,0 +1,16 @@
+ms c sharp:
+strings 
+
+Go to https://howcode.org for more!
+
+Link to the program we'll be manipulating: http://howco.de/myapp-win
+Link to ILSpy: http://howco.de/ilspy
+Link to Reflexil: http://howco.de/reflexil
+vb6:
+www.vb-decompiler.com
+
+python:
+
+https://www.mediafire.com/file/b6nmmmstbmnwq5q/auto_python_exe_extractor.rar/file
+
+https://github.com/rocky/python-decompile3
