@@ -14,5 +14,5 @@ This repository contains python scripts related to penetration testing
 <br>Active Directory Penetration Testing.txt
 <br>This is a checklist for pen testing active directory. See related article  https://gbhackers.com/active-directory-penetration-testing-checklist/?fbclid=IwAR1xJKda9qUcZquxg0GBpkQ0MCJHRIZ-Wa4TPAW8qlPYKMV_FOk_i0cknL8
 
-
-
+<br>reverse.txt 
+<br> Contains links to software for reverse enginnering exe files written in C#, vb6 and python.
