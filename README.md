@@ -10,3 +10,9 @@ This repository contains python scripts related to penetration testing
 
 <br>Python: A simple script to closed Ports in Windows 10(ports_close.py)
 <br>This program is created to close ports in Windows 10. Pls refer to related article at my blog https://pythonbitsnpieces.blogspot.com/2022/07/python-simple-script-to-closed-ports-in.html
+
+<br>Active Directory Penetration Testing.txt
+<br>This is a checklist for pen testing active directory. See related article  https://gbhackers.com/active-directory-penetration-testing-checklist/?fbclid=IwAR1xJKda9qUcZquxg0GBpkQ0MCJHRIZ-Wa4TPAW8qlPYKMV_FOk_i0cknL8
+
+
+
