@@ -18,4 +18,4 @@ This repository contains python scripts related to penetration testing
 <br> Contains links to software for reverse enginnering exe files written in C#, vb6 and python.
 
 <br>meterpreter.txt
-<br>chat sheet for hacking a Windows 10 PC from the Web
+<br>cheat sheet for hacking a Windows 10 PC from the Web
