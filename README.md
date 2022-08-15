@@ -19,3 +19,6 @@ This repository contains python scripts related to penetration testing
 
 <br>meterpreter.txt
 <br>cheat sheet for hacking a Windows 10 PC from the Web
+
+<br>mimikatz.txt
+<br>cheat sheet for grabbing admin password on windows 7 and windows 10
