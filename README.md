@@ -25,3 +25,6 @@ This repository contains python scripts related to penetration testing
 
 <br>recon-ng.txt
 <br>cheat sheet for recon-ng with some pen testing examples
+
+<br>leaked_emails.txt
+<br>cheat sheet for finding passwords of compromised emails
