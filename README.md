@@ -22,3 +22,6 @@ This repository contains python scripts related to penetration testing
 
 <br>mimikatz.txt
 <br>cheat sheet for grabbing admin password on windows 7 and windows 10
+
+<br>recon-ng.txt
+<br>cheat sheet for recon-ng with some pen testing examples
