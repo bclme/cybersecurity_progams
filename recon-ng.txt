@@ -1,0 +1,120 @@
+Recon-Ng
+
+Frameworks:
+companies
+contacts
+credentials
+domains
+hosts
+leaks
+locations
+neblocks
+ports
+profiles
+pushpins
+repositories
+vulnerabilities
+
+workspaces list 
+workspaces  create john
+workspaces load john
+workspaces remove john
+
+snapshots list
+snapshots take
+snapshots load <.db>
+snapshots remove <.db>
+
+show <frameworks>
+
+shell -execute shell commands
+
+pdb - python developer
+pdb <.py>
+
+options - settings of recon-ng
+options list
+options unset <Name>
+options set THREADS 10 
+Name:
+NAMESERVER
+PROXY
+THREADS
+TIMEOUT
+USER-AGENT
+VERBOSITY
+
+marketplace - install recon-ng hacking tools
+marketplace search dns
+marketplace search discovery
+marketplace search leak
+marketplace install <path>
+marketplace remove <path>
+marketplace refresh
+
+modules search
+modules load <path>
+info
+options command can be used to change settings of the module
+run
+back
+modules reload <path>
+
+keys - api keys(get from shodan.io)
+keys list
+keys add <Name> <api key>
+keys remove <Name>
+
+index - find information of a tool(module)
+index all
+index <path>
+
+db
+db schema
+db insert <table>
+show <table>
+db delete <table>
+
+dashboard - displays summary of activities
+
+script
+script execute <file path>
+script status
+
+spool
+from command prompt, /usr/share/recon-ng
+./recon-web
+paste to browser obtained ip address/port
+
+wordlist: dirbuster
+ 
+example of pentesting: (POC, subdomains, ip address, usernames, email)
+1. add domains microsoft.com
+2. show domains
+3. use whois-pocs
+4. run
+5. show contacts
+6. back
+7. use bing_domain_web
+8. show info
+9. run
+10. show hosts
+11. back
+12. use brute_hosts
+13. show info
+14. run
+15. show hosts
+16. back
+17. use interesting_files
+18. show infor
+19. run
+
+Scanning of Services (needs api key)
+1. show hosts
+2. use builtwith
+3. show info
+4. add domains finercoder.com
+5. run
+6. 
+
+
