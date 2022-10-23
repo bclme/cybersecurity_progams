@@ -11,4 +11,4 @@ target: abc.com
 7.and thats it, if you type in the subdomain url, it directs you to the your online shopify shop.
 8. Github can also be used instead of shopify, check out this link https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site and use the subdomain as custom domain for the repository page.
 
-Tool Used to chack vulnerability: subzy tool on github
+If Step 1 does not work and you have Kali Linux, you may use subsraper to scan for subdomains. Check out https://www.geeksforgeeks.org/subscraper-subdomain-enumeration-tool-in-kali-linux/
