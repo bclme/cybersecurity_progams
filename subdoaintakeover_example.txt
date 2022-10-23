@@ -1,0 +1,13 @@
+SubDomain Take-Over
+
+target: abc.com
+
+1. goto virustotal, enter the domain name 
+2. goto relations tab and itshows the subdomains list copy them
+3. goto https://httpstatus.io to check the status of each subdomain, select the status with 404
+4. goto dns lookup https://mxtoolbox.com to check the info of the subdomain
+5. goto https://toolbox.googleapps.com/apps/dig/  and select the CNAME tab
+6. goto your shopify shop and setup your new web adderss to an existing domain which is the subdomain
+7.and thats it, if you type in the subdomain url, it directs you to the your online shopify shop.
+
+Tool Used to chack vulnerability: subzy tool on github
