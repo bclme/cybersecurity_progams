@@ -28,3 +28,6 @@ This repository contains python scripts related to penetration testing
 
 <br>leaked_emails.txt
 <br>cheat sheet for finding passwords of compromised emails
+
+<br>subdomaintakeover_example.txt
+<br> cheat sheet on how to take over a subdomain
