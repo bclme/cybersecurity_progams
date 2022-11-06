@@ -31,3 +31,6 @@ This repository contains python scripts related to penetration testing
 
 <br>subdomaintakeover_example.txt
 <br> cheat sheet on how to take over a subdomain
+
+<br>win_usb_scan.py
+<br>This python program monitor any changes in the filsystem and detect any removable drive that plugged and being unplugged on a windows pc. See the related post https://pythonbitsnpieces.blogspot.com/2022/11/2-python-programs-that-are-useful-in.html
