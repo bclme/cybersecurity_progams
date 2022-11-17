@@ -1,0 +1,22 @@
+SQL Injection Defence Checklist
+
+Implement input validation and field masking at the view level.
+
+Ensure that your model layer properly uses placeholders. 
+
+Check the data types of input parameters.
+
+Avoid insecure packages that have access to the database.
+  use scanning software to check vulnerabilities of installed packages
+
+Make use of application security monitoring features.
+  example: Detecting SQL Injection Attacks based on Text Analysis
+           Detection of SQL Injection Attack Using Machine Learning Techniques
+
+Enforce security policies and best practices with your team.
+
+Others:
+Don’t allow multiple statements
+Allow list user input
+Query Tokenization
+user regular expression in input validations to remove any special characters
