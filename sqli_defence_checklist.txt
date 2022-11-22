@@ -19,4 +19,9 @@ Others:
 Don’t allow multiple statements
 Allow list user input
 Query Tokenization
+Use an allow instead of a deny list
 user regular expression in input validations to remove any special characters
+Whitelist URLs for database access
+Escape and encode special database characters
+Use updated web development technologies and database setups (such as PDO instead of MySQLi) that include in-built SQLi protection
+Enforce the use of parameterized queries and prepared statements
